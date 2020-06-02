@@ -1,5 +1,6 @@
 import React from "react"
 import "../components/layout.css"
+import Main from "./main"
 import Moji from "../images/zac-moji.png"
 import Instagram from "../images/instagram.svg"
 import Linkedin from "../images/linkedin.svg"
@@ -14,7 +15,7 @@ import Northcutt from "../images/northcutt.svg"
 const Head = () => (
   <div className="HeadContainer">
         <div className="greeting">
-            <img src={Moji} width="50%"></img>
+            <img src={Moji} width="40%"></img>
             <h2>I'm Zac, a <span className="underline">SaaS marketer</span>, Designer, and <br>
             </br>two-time founder. I'm the Chief Revenue<br>
             </br>officer at Northcutt by day, and design my <br>
@@ -39,6 +40,8 @@ const Head = () => (
                      </div>
                 </div>
               </div>
+              <Main/>
+              
 
         
         

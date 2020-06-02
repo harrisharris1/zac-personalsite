@@ -65,7 +65,7 @@ img {
 /* HEAD */
 .HeadContainer{
   max-width:1366px;
-  height: 80vh;
+  height: 100vh;
 }
 
 .greeting{
@@ -73,7 +73,7 @@ img {
   flex-direction: column;
 }
 .greeting img{
-  margin-left: 22%
+  margin-left: 30%
 }
 
 .greeting h2{
@@ -107,6 +107,39 @@ font-weight: normal;
   font-style: normal;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+/* MAIN */
+
+.mainContainer{
+  max-width:1366px;
+  height: 95vh;
+  background-color: #F0E5DC;
+
+}
+.AboutMeSection{
+  display: flex;
+  justify-content: space-around;
+}
+.AboutParagraphs h2{
+  font-style: normal;
+  font-size: 48px;
+  color: #676767;
+  letter-spacing:0.5px ;
+  font-weight: normal;
+
+}
+.paragraphs h3{
+  color: #676767;
+  font-size: 22px;
+  line-height: 32px;
+  
+  
+}
+.paragraphs p{
+  color: #676767;
+  font-size: 20px;
+  line-height: 32px;
 }
 
 
