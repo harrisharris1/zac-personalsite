@@ -81,6 +81,8 @@ img {
   font-size: 45px;
   color: #676767;
   line-height: 68px;
+  font-style: normal;
+font-weight: normal;
   
 }
 /* .orange{
@@ -93,11 +95,20 @@ img {
 }
 
 .icons{
-  margin-left:3%;
+  text-align: center;
+}
+.icons img{
+  margin:2%;
+}
+.whereIWorked p{
+  color: #D3BBAB;
+  font-size: 14px;
+  font-style: normal;
+font-weight: bold;
 }
 
-.icons img{
-  justify-content: space-evenly;
-}
+
+
+
 
 

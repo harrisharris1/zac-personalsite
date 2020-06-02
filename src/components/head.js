@@ -15,18 +15,20 @@ const Head = () => (
             </br>officer at Northcutt by day, and design my <br>
             </br>my own projects by night.</h2>
            
-             <div className="icons">
+        </div>
+        <div className="icons">
                  
-                <img src={Linkedin} ></img>
-                <img src={Twitter} ></img>
-                <img src={Medium} ></img>
-                <img src={Instagram} ></img>
-             </div>
-        </div>
+                 <img src={Linkedin} ></img>
+                 <img src={Twitter} ></img>
+                 <img src={Medium} ></img>
+                 <img src={Instagram} ></img>
 
-        <div class="work-logos">
-            <p>PLACES I'VE WORKED</p>
-        </div>
+                 <div class="whereIWorked">
+                     <p>PLACES I'VE WORKED</p>
+                </div>
+              </div>
+
+        
         
 
   
