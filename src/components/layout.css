@@ -88,9 +88,10 @@ font-weight: normal;
 /* .orange{
   color:#EE6454;
 } */
-.underline .orange{
+.underline{
   text-decoration: underline;
-  color:#EE6454;
+  text-decoration-thickness: 5px;
+  text-decoration-color:#EE6454;
 
 }
 
@@ -104,7 +105,8 @@ font-weight: normal;
   color: #D3BBAB;
   font-size: 14px;
   font-style: normal;
-font-weight: bold;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 
