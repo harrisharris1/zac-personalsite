@@ -59,6 +59,8 @@ img {
   font-family: 'DM Serif Display', serif;
   font-size: 28px;
   margin:3%;
+  font-style: italic;
+  font-weight: normal;
 
 }
 
@@ -142,8 +144,47 @@ font-weight: normal;
   line-height: 32px;
 }
 
+/* CTA-BLOG */
 
+.BlogContainer{
+  max-width:1366px;
+  height: 100vh;
+  
+}
 
+.ctaSection{
+  margin-top: 158px;
+  margin-left: 161px;
+}
 
+.quote{
+  background-color: #D3BBAB;
+  width: 1150px;
+  height: 444px;
+  border-radius: 24px;
+  margin-top: 119px;
+  margin-left: 108px;
+  text-align: center;
+}
+.quote .joel-img{
+  margin-top: 25px;
+}
+
+.quote h5{
+  font-style: normal;
+  font-size: 30px;
+  color:#3B3B3B;
+}
+.quote p{
+  font-style: normal;
+ font-weight: normal;
+ font-size: 18px;
+ color:#4E4E50;
+ margin-bottom: 65px;
+}
+
+.orange-dot{
+  color: #EE6454;
+}
 
 

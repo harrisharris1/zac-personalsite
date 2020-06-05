@@ -1,6 +1,7 @@
 import React from "react"
 import "../components/layout.css"
 import Main from "./main"
+import Blog from "./cta-blog"
 import Moji from "../images/zac-moji.png"
 import Instagram from "../images/instagram.svg"
 import Linkedin from "../images/linkedin.svg"
@@ -41,6 +42,7 @@ const Head = () => (
                 </div>
               </div>
               <Main/>
+              <Blog/>
               
 
         
