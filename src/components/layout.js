@@ -11,7 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Nav from "./nav"
 import Head from "./head"
-import Main from "./main"
+import Footer from "./footer"
 import "./layout.css"
 
 const Layout = () => {
@@ -21,6 +21,7 @@ const Layout = () => {
     <>
       <Nav/>
       <Head/>
+     
      
      
     </>

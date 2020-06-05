@@ -87,15 +87,12 @@ img {
 font-weight: normal;
   
 }
-/* .orange{
-  color:#EE6454;
-} */
-.underline{
-  text-decoration: underline;
-  text-decoration-thickness: 5px;
-  text-decoration-color:#EE6454;
 
-}
+.underline{
+    border-bottom: 8px solid #EE6454;
+    transform: rotate(45deg);
+  transform-origin: 20% 40%;
+  }
 
 .icons{
   text-align: center;
@@ -109,13 +106,17 @@ font-weight: normal;
   font-style: normal;
   font-weight: bold;
   text-transform: uppercase;
+  margin-top: 30px;
+}
+.workLogos{
+  margin-bottom: 30px;
 }
 
 /* MAIN */
 
 .mainContainer{
   max-width:1366px;
-  height: 95vh;
+  height: 100vh;
   background-color: #F0E5DC;
 
 }
@@ -174,6 +175,7 @@ font-weight: normal;
   font-style: normal;
   font-size: 30px;
   color:#3B3B3B;
+  margin-top: 20px;
 }
 .quote p{
   font-style: normal;
@@ -187,4 +189,128 @@ font-weight: normal;
   color: #EE6454;
 }
 
+.BlogCards{
+  max-width: 1365px;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
 
+.card{
+  width:450px ;
+  height: 256px;
+  background-color:#FFE9E2;
+  border-radius: 24px 24px 0px 0px;
+  line-height: 27px;
+  margin-top: 119px;
+  text-align:left;
+}
+
+.card img{
+  border-radius:0px 0px 24px 24px;
+  width: 525px;
+  height: 325px;
+
+}
+.card button{
+  background-color: #FAFAFA;
+  border-radius: 24px;
+  color: #EE6454;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  width: 182px;
+height: 48px;
+border: none;
+margin-bottom: 45px;
+margin-left: 45px;
+
+}
+
+.textContainer h6{
+  font-style: normal;
+font-weight: normal;
+font-size: 30px;
+color: #3B3B3B;
+margin:20px;
+margin-left: 45px;
+}
+
+.textContainer p{
+  font-style: normal;
+font-weight: normal;
+font-size: 16px;
+color:#535353;
+margin-left: 45px;
+}
+
+.BlogCards2{
+  max-width: 1365px;
+  display: flex;
+  justify-content: space-evenly;
+ 
+  
+}
+
+
+.card2{
+  width:450px ;
+  height: 256px;
+  background-color:#FFE9E2;
+  border-radius: 24px 24px 0px 0px;
+ margin-top: 325px;
+ line-height: 27px;
+ text-align:left;
+}
+
+.card2 img{
+  border-radius:0px 0px 24px 24px;
+  width: 525px;
+height: 325px;
+
+}
+.card2 button{
+  background-color: #FAFAFA;
+  border-radius: 24px;
+  color: #EE6454;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  width: 182px;
+height: 48px;
+border: none;
+margin-bottom: 45px;
+margin-left: 45px;
+
+}
+
+.textContainer2 h6{
+  font-style: normal;
+font-weight: normal;
+font-size: 30px;
+color: #3B3B3B;
+margin:20px;
+margin-left: 45px;
+
+}
+
+.textContainer2 p{
+  font-style: normal;
+font-weight: normal;
+font-size: 16px;
+color:#535353;
+margin-left: 45px;
+}
+.pink{
+  background-color:  #FFE7E7;
+}
+
+
+/* FOOTER */
+
+.FooterContainer{
+  max-width:1366px;
+  height: 80vh;
+  background-color:#EE6454 ;
+
+}

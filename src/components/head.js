@@ -2,6 +2,7 @@ import React from "react"
 import "../components/layout.css"
 import Main from "./main"
 import Blog from "./cta-blog"
+import Footer from "./footer"
 import Moji from "../images/zac-moji.png"
 import Instagram from "../images/instagram.svg"
 import Linkedin from "../images/linkedin.svg"
@@ -19,7 +20,7 @@ const Head = () => (
             <img src={Moji} width="40%"></img>
             <h2>I'm Zac, a <span className="underline">SaaS marketer</span>, Designer, and <br>
             </br>two-time founder. I'm the Chief Revenue<br>
-            </br>officer at Northcutt by day, and design my <br>
+            </br>Officer at Northcutt by day, and design my <br>
             </br>my own projects by night.</h2>
            
         </div>
@@ -30,19 +31,20 @@ const Head = () => (
                  <img src={Medium} ></img>
                  <img src={Instagram} ></img>
 
-                 <div class="whereIWorked">
-                     <p>places i've worked</p>
-                     <div className="workLogos">
-                         <img src={Spyfu}></img>
-                         <img src={Jeffery}></img>
-                         <img src={Nacho}></img>
-                         <img src={Northcutt}></img>
-                         
-                     </div>
-                </div>
-              </div>
+                    <div class="whereIWorked">
+                        <p>places i've worked</p>
+                            <div className="workLogos">
+                                <img src={Spyfu}></img>
+                                <img src={Jeffery}></img>
+                                <img src={Nacho}></img>
+                                <img src={Northcutt}></img>
+                                
+                            </div>
+                    </div>
+        </div>
               <Main/>
               <Blog/>
+             
               
 
         

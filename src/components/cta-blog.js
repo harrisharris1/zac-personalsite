@@ -3,6 +3,8 @@ import Cta from "../images/Meeting - CTA.png"
 import Joel from "../images/Joel.png"
 import qleft from "../images/quotes-left.png"
 import qright from "../images/quotes-right.png"
+import Moon from "../images/moon.jpg"
+import arrow from "../images/arrow2.png"
 
 
 const Blog = ()=>(
@@ -22,6 +24,56 @@ const Blog = ()=>(
             <p>Joel Klettke, Founder at Case Study Buddy</p>
 
         </div>
+
+        <div className="BlogCards">
+                <div className="card">
+                    <div className="textContainer">
+                        <h6>Recordings Reloaded</h6>
+                        <p>The redesign of a flagship feature powered by a
+                        full-fledged design sprint</p>
+                        <button>Read Blog Post</button> 
+                    </div>
+                    <img src={Moon}></img>
+                </div>
+
+                <div className="card">
+                    <div className="textContainer">
+                        <h6>Recordings Reloaded</h6>
+                        <p>The redesign of a flagship feature powered by a<br>
+                        </br>full-fledged design sprint</p>
+                        <button>Read Blog Post</button>
+                    </div>
+                    <img src={Moon}></img>
+                </div>
+        </div>
+
+         <div className="BlogCards2">
+                <div className="card2">
+                    <div className="textContainer2">
+                        
+                        <h6>Recordings Reloaded</h6>
+                        <p>The redesign of a flagship feature powered by a
+                        full-fledged design sprint</p>
+                        <button>Read Blog Post</button> 
+                    </div>
+                    
+                    <img src={Moon}></img>
+                </div>
+
+                <div className="card2">
+                    <div className="textContainer2">
+                        <h6>Recordings Reloaded</h6>
+                        <p>The redesign of a flagship feature powered by a
+                        full-fledged design sprint</p>
+                        <button>Read Blog Post</button> 
+                    </div>
+                    <img src={Moon}></img>
+                </div>
+        </div>
+
+      
+            
     </div>
+    
 )
 export default Blog
