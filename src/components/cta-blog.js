@@ -4,6 +4,7 @@ import Joel from "../images/Joel.png"
 import qleft from "../images/quotes-left.png"
 import qright from "../images/quotes-right.png"
 import Moon from "../images/moon.jpg"
+import Heart from "../images/heart.svg"
 import arrow from "../images/arrow2.png"
 
 
@@ -69,7 +70,17 @@ const Blog = ()=>(
                     </div>
                     <img src={Moon}></img>
                 </div>
+                
         </div>
+
+        <div class="bottom">
+               <div className="madeby">
+                    <img src={Heart}></img>
+                    <h6>made with love by andrea harris</h6>
+                </div>
+        </div>
+
+        
 
       
             

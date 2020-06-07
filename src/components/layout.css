@@ -58,16 +58,30 @@ img {
 .zacsName h1{
   font-family: 'DM Serif Display', serif;
   font-size: 28px;
-  margin:3%;
+  margin:5%;
   font-style: italic;
   font-weight: normal;
 
+}
+@media only screen and (max-width: 375px) {
+  .zacsName h1 {
+     font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    margin:5%;
+  }
 }
 
 /* HEAD */
 .HeadContainer{
   max-width:1366px;
   height: 100vh;
+}
+@media only screen and (max-width: 375px) {
+  .HeadContainer{
+    max-width:375px;
+    height: 100vh;
+  }
 }
 
 .greeting{
@@ -77,7 +91,13 @@ img {
 .greeting img{
   margin-left: 30%
 }
-
+@media only screen and (max-width: 375px) {
+  .greeting img{
+    width: 90% ;
+    align-self: center;
+    margin-left: 2%
+  }
+}
 .greeting h2{
   text-align: center;
   font-size: 45px;
@@ -87,19 +107,38 @@ img {
 font-weight: normal;
   
 }
+@media only screen and (max-width: 375px){
+  .greeting h2{
+    font-size: 16px;
+    line-height: 21px;
+  }
+}
 
 .underline{
     border-bottom: 8px solid #EE6454;
-    transform: rotate(45deg);
-  transform-origin: 20% 40%;
+   
   }
+  @media only screen and (max-width: 375px){
+    .underline{ 
+      border-bottom: 3px solid #EE6454;
+    }
+  }
+  
 
+ 
 .icons{
   text-align: center;
 }
 .icons img{
   margin:2%;
 }
+@media only screen and (max-width: 375px){
+  .icons img{
+    width: 25px;
+    margin:4%;
+  }
+}
+
 .whereIWorked p{
   color: #D3BBAB;
   font-size: 14px;
@@ -109,7 +148,15 @@ font-weight: normal;
   margin-top: 30px;
 }
 .workLogos{
+  display: flex;
   margin-bottom: 30px;
+  justify-content: space-evenly;
+  
+}
+@media only screen and (max-width: 375px){
+  .workLogos img{
+    width: 60px;
+  }
 }
 
 /* MAIN */
@@ -120,9 +167,31 @@ font-weight: normal;
   background-color: #F0E5DC;
 
 }
+@media only screen and (max-width: 375px){
+  .mainContainer{
+    max-width: 375px;
+    height: 200vh;
+    
+
+  }
+}
 .AboutMeSection{
   display: flex;
   justify-content: space-around;
+}
+@media only screen and (max-width: 375px){
+  .AboutMeSection{
+    display: flex;
+    flex-direction: column;
+  justify-content: space-around;
+  }
+}
+@media only screen and (max-width: 375px){
+  .AboutMeSection img{
+   width: 60%;
+   align-self: center;
+   margin-top: 5%;
+  }
 }
 .AboutParagraphs h2{
   font-style: normal;
@@ -131,6 +200,12 @@ font-weight: normal;
   letter-spacing:0.5px ;
   font-weight: normal;
 
+}
+@media only screen and (max-width: 375px){
+  .AboutParagraphs{
+  align-self: center;
+  
+  }
 }
 .paragraphs h3{
   color: #676767;
@@ -152,10 +227,32 @@ font-weight: normal;
   height: 100vh;
   
 }
+@media only screen and (max-width: 375px){
+  .BlogContainer{
+    max-width:375px;
+    height: 100vh;
+    
+}
+}
 
 .ctaSection{
   margin-top: 158px;
   margin-left: 161px;
+}
+@media only screen and (max-width: 375px){
+  .ctaSection img{
+    display: none;
+    
+}
+}
+@media only screen and (max-width: 375px){
+  .ctaSection{
+   background-color:  #EE6454;
+   width: 375px;
+   height: 325px;
+   margin:0.1%;
+    
+}
 }
 
 .quote{
@@ -172,7 +269,7 @@ font-weight: normal;
 }
 
 .quote h5{
-  font-style: normal;
+  
   font-size: 30px;
   color:#3B3B3B;
   margin-top: 20px;
@@ -202,8 +299,9 @@ font-weight: normal;
   background-color:#FFE9E2;
   border-radius: 24px 24px 0px 0px;
   line-height: 27px;
-  margin-top: 119px;
+  margin-top: 122px;
   text-align:left;
+  
 }
 
 .card img{
@@ -226,6 +324,9 @@ margin-bottom: 45px;
 margin-left: 45px;
 
 }
+.textContainer{
+  padding:8px;
+}
 
 .textContainer h6{
   font-style: normal;
@@ -234,6 +335,7 @@ font-size: 30px;
 color: #3B3B3B;
 margin:20px;
 margin-left: 45px;
+padding: 5px;
 }
 
 .textContainer p{
@@ -241,7 +343,7 @@ margin-left: 45px;
 font-weight: normal;
 font-size: 16px;
 color:#535353;
-margin-left: 45px;
+margin-left: 50px;
 }
 
 .BlogCards2{
@@ -258,7 +360,7 @@ margin-left: 45px;
   height: 256px;
   background-color:#FFE9E2;
   border-radius: 24px 24px 0px 0px;
- margin-top: 325px;
+ margin-top: 355px;
  line-height: 27px;
  text-align:left;
 }
@@ -283,6 +385,9 @@ margin-bottom: 45px;
 margin-left: 45px;
 
 }
+.textContainer2{
+  padding:8px;
+}
 
 .textContainer2 h6{
   font-style: normal;
@@ -292,6 +397,7 @@ color: #3B3B3B;
 margin:20px;
 margin-left: 45px;
 
+
 }
 
 .textContainer2 p{
@@ -299,18 +405,24 @@ margin-left: 45px;
 font-weight: normal;
 font-size: 16px;
 color:#535353;
-margin-left: 45px;
+margin-left: 50px;
+
 }
-.pink{
-  background-color:  #FFE7E7;
-}
+
 
 
 /* FOOTER */
 
-.FooterContainer{
-  max-width:1366px;
-  height: 80vh;
-  background-color:#EE6454 ;
+.bottom{
+  margin-top: 35%;
+}
 
+.madeby{
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #D3BBAB;
 }
