@@ -5,15 +5,18 @@ import qleft from "../images/quotes-left.png"
 import qright from "../images/quotes-right.png"
 import Moon from "../images/moon.jpg"
 import Heart from "../images/heart.svg"
+import Coffee from "../images/coffee.svg"
 import arrow from "../images/arrow2.png"
 
 
 const Blog = ()=>(
     <div className="BlogContainer">
         <div className="ctaSection">
-           <img src={Cta}></img>
-                {/* <h4>Want to talk marketing?</h4>
-                <button>grab a zoom coffee with me</button> */}
+           <img src={Cta} className="desktop-img"></img>
+           <img src={Coffee} className="coffee"></img>
+                <h4 className="mobile-cta">Want to talk <br>
+                </br>marketing?</h4>
+                <button className="mobile-btn">grab a zoom coffee with me</button>
         </div>
 
         <div className="quote">

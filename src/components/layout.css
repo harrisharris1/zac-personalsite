@@ -39,7 +39,6 @@ html {
 }
 body {
   font-weight: normal;
-  word-wrap: break-word;
   background-color: #FBF7F5;
  
 }
@@ -190,7 +189,8 @@ font-weight: normal;
   .AboutMeSection img{
    width: 60%;
    align-self: center;
-   margin-top: 5%;
+   margin-top: 52px;
+   margin-bottom: 75px;
   }
 }
 .AboutParagraphs h2{
@@ -204,6 +204,16 @@ font-weight: normal;
 @media only screen and (max-width: 375px){
   .AboutParagraphs{
   align-self: center;
+  margin-left:35px;
+  margin-right: 10px;
+  
+  
+  }
+}
+@media only screen and (max-width: 375px){
+  .AboutParagraphs h2{
+  font-size: 45px;
+  
   
   }
 }
@@ -214,10 +224,18 @@ font-weight: normal;
   
   
 }
+
 .paragraphs p{
   color: #676767;
   font-size: 20px;
   line-height: 32px;
+}
+@media only screen and (max-width: 375px){
+  .paragraphs p{
+  font-size: 18px;
+  
+  
+  }
 }
 
 /* CTA-BLOG */
@@ -234,13 +252,24 @@ font-weight: normal;
     
 }
 }
+  
+
+@media only screen and (max-width: 375px){
+  .ctaSection h4{
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 32px;
+    color : white;
+    
+}
+}
 
 .ctaSection{
   margin-top: 158px;
   margin-left: 161px;
 }
 @media only screen and (max-width: 375px){
-  .ctaSection img{
+  .ctaSection .desktop-img{
     display: none;
     
 }
@@ -251,19 +280,60 @@ font-weight: normal;
    width: 375px;
    height: 325px;
    margin:0.1%;
+   text-align: center;
+    
+}
+}
+@media only screen and (max-width: 375px){
+  .coffee{
+   margin-top: 30px;
     
 }
 }
 
+@media only screen and (max-width: 375px){
+  .mobile-btn{
+    background-color: #FAFAFA;
+    border-radius: 24px;
+    color: #EE6454;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    width: 280px;
+    height: 40px;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    
+    
+}
+}
+
+
+
 .quote{
   background-color: #D3BBAB;
-  width: 1150px;
+  max-width: 1150px;
   height: 444px;
   border-radius: 24px;
   margin-top: 119px;
   margin-left: 108px;
   text-align: center;
 }
+
+@media only screen and (max-width: 375px){
+  .quote{
+    
+    width: 375px;
+    height: 558px;
+    border-radius: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+   
+  }
+}
+
+
 .quote .joel-img{
   margin-top: 25px;
 }
@@ -274,12 +344,30 @@ font-weight: normal;
   color:#3B3B3B;
   margin-top: 20px;
 }
+@media only screen and (max-width: 375px){
+  .quote h5{
+    font-size: 20px;
+    line-height: 32px;
+    margin-left:25px;
+    
+
+  }
+}
 .quote p{
   font-style: normal;
  font-weight: normal;
  font-size: 18px;
  color:#4E4E50;
  margin-bottom: 65px;
+}
+@media only screen and (max-width: 375px){
+  .quote p{
+    font-size: 18px;
+    margin-left:25px;
+    
+    
+
+  }
 }
 
 .orange-dot{
@@ -300,7 +388,7 @@ font-weight: normal;
   border-radius: 24px 24px 0px 0px;
   line-height: 27px;
   margin-top: 122px;
-  text-align:left;
+  
   
 }
 
@@ -326,6 +414,7 @@ margin-left: 45px;
 }
 .textContainer{
   padding:8px;
+  text-align:left;
 }
 
 .textContainer h6{
