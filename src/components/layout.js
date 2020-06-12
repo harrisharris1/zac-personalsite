@@ -11,7 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Nav from "./nav"
 import Head from "./head"
-import Footer from "./footer"
+
 import "./layout.css"
 
 const Layout = () => {
@@ -28,8 +28,8 @@ const Layout = () => {
   )
 }
 
-// Layout.propTypes = {
-//   children: PropTypes.node.isRequired,
-// }
+Layout.propTypes = {
+  children: PropTypes.node.isRequired,
+}
 
 export default Layout
