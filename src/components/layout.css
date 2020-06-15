@@ -73,7 +73,7 @@ img {
 }
 @media only screen and (max-width: 500px) {
   .HeadContainer{
-    max-width:500px;
+    width:500px;
     height: 100vh;
   }
 }
@@ -163,7 +163,7 @@ font-weight: normal;
 }
 @media only screen and (max-width: 500px){
   .mainContainer{
-    max-width: 500px;
+    width: 500px;
     height: 200vh;
     
 
