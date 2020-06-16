@@ -12,7 +12,7 @@ import Coffee from "../images/coffee.svg"
 const Blog = ()=>(
     <div className="BlogContainer">
         <div className="ctaSection">
-        <img src={Cta} className="desktop-img"></img>
+        <a target='_blank' href="https://calendly.com/zac-harris/30-minute-private?month=2020-06"><img src={Cta} className="desktop-img"></img></a>
             <div class="hide-indesk">
                      <img src={Coffee} className="coffee"></img>
                         <h4 className="mobile-cta">Want to talk <br>
