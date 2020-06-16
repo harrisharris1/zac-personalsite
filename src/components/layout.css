@@ -163,7 +163,7 @@ font-weight: normal;
 @media only screen and (max-width: 500px){
   .mainContainer{
     width: 500px;
-    height: 200vh;
+    height: 180vh;
     
 
   }
@@ -250,7 +250,7 @@ font-weight: normal;
 @media only screen and (max-width: 500px){
   .BlogContainer{
     max-width:500px;
-    height: 100vh;
+    height: 110vh;
     
 }
 }
@@ -300,7 +300,7 @@ font-weight: normal;
   .ctaSection{
    background-color:  #EE6454;
    width: 500px;
-   height: 325px;
+   height: 335px;
    margin:0%;
    text-align: center;
     
@@ -348,7 +348,7 @@ font-weight: normal;
   .quote{
     
     width: 500px;
-    height: 558px;
+    height: 525px;
     border-radius: 0px;
     margin-top: 0px;
     margin-left: 0px;
@@ -371,7 +371,7 @@ font-weight: normal;
   .quote h5{
     font-size: 18px;
     line-height: 32px;
-    margin-left:5px;
+    margin:25px;
     
 
   }
@@ -386,7 +386,7 @@ font-weight: normal;
 @media only screen and (max-width: 500px){
   .quote p{
     font-size: 16px;
-    margin-left:25px;
+    margin:20px;
     
     
 
