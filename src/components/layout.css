@@ -156,7 +156,7 @@ font-weight: normal;
 
 .mainContainer{
   max-width:1366px;
-  height: 100vh;
+  height: 110vh;
   background-color: #F0E5DC;
 
 }
@@ -169,14 +169,18 @@ font-weight: normal;
   }
 }
 .AboutMeSection{
+  max-width: 1200px;
   display: flex;
-  justify-content: space-around;
+  
+}
+
+.AboutMeSection img{
+  margin-left:75px;
 }
 @media only screen and (max-width: 500px){
   .AboutMeSection{
     display: flex;
     flex-direction: column;
-  justify-content: space-around;
   }
 }
 @media only screen and (max-width: 500px){
@@ -184,8 +188,13 @@ font-weight: normal;
    width: 60%;
    align-self: center;
    margin-top: 72px;
-   margin-bottom: 72px;
+   margin-bottom: 62px;
+   margin-right: 65px;
   }
+}
+.AboutParagraphs{
+  justify-content: space-between;
+  margin-left: 190px;
 }
 .AboutParagraphs h2{
   font-style: normal;
@@ -197,8 +206,7 @@ font-weight: normal;
 }
 @media only screen and (max-width: 500px){
   .AboutParagraphs{
-    width: 450px;
-  align-self: center;
+   margin:45px;
   
   
   

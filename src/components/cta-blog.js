@@ -23,10 +23,10 @@ const Blog = ()=>(
 
         <div className="quote">
             <img className="joel-img" src={Joel}></img>
-            <h5> <img src={qleft} width="35px" height="35px"></img> Zac cares deeply about getting things right -- not only with SEO, but<br>
-            </br>with marketing, user experience, and conversion too. I worked directly<br>
-            </br>with Zac on an audit of SpyFu. He approached it with an open mind<br>
-            </br>and a sincere desire to find the right path forward<span className="orange-dot"> .</span><img src={qright} width="35px" height="35px"></img></h5>
+            <h5> <img src={qleft} width="35px" height="35px"></img> Zac cares deeply about getting things right -- not only with SEO, but
+            with marketing, user experience, and conversion too. I worked directly
+            with Zac on an audit of SpyFu. He approached it with an open mind
+            and a sincere desire to find the right path forward<span className="orange-dot"> .</span><img src={qright} width="35px" height="35px"></img></h5>
             <p>Joel Klettke, Founder at Case Study Buddy</p>
 
         </div>
