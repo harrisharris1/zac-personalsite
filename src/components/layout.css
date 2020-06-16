@@ -212,9 +212,10 @@ font-weight: normal;
   
   }
 }
-@media only screen and (max-width: 500px){
+@media all and (max-width: 500px)and (max-width: 350px){
   .AboutParagraphs h2{
   font-size: 40px;
+  
   
   
   }
