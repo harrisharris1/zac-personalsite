@@ -25,10 +25,10 @@ const Head = () => (
         </div>
         <div className="icons">
                  
-                 <img src={Linkedin} ></img>
-                 <img src={Twitter} ></img>
-                 <img src={Medium} ></img>
-                 <img src={Instagram} ></img>
+                 <a target='_blank' href="https://www.linkedin.com/in/zacharris36/"> <img src={Linkedin} ></img></a>
+                 <a target='_blank' href="https://twitter.com/zac_t_harris"><img src={Twitter} ></img></a>
+                 <a target='_blank' href="https://medium.com/@zacthefounder"><img src={Medium} ></img></a>
+                 <a target='_blank' href="https://www.instagram.com/harrisz_36/"><img src={Instagram} ></img></a>
 
                     <div class="whereIWorked">
                         <p>places i've worked</p>
