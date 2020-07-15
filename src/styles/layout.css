@@ -199,17 +199,7 @@ font-weight: normal;
   text-align: center;
 }
 
-@media only screen and (max-width: 500px){
-  .quote{
-    
-    width: 500px;
-    height: 525px;
-    border-radius: 0px;
-    margin-top: 0px;
-    margin-left: 0px;
-   
-  }
-}
+
 
 
 .quote .joel-img{
