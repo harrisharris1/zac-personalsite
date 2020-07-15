@@ -45,8 +45,8 @@ const Blog = ()=>(
                 <div className="card">
                     <div className="textContainer">
                         <h6>Recordings Reloaded</h6>
-                        <p>The redesign of a flagship feature powered by a<br>
-                        </br>full-fledged design sprint</p>
+                        <p>The redesign of a flagship feature powered by a
+                            full-fledged design sprint</p>
                         <button>Read Blog Post</button>
                     </div>
                     <img src={Moon}></img>
