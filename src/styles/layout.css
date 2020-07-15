@@ -7,7 +7,7 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
-  max-width:1366px;
+  max-width:100%;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -57,40 +57,24 @@ img {
   font-weight: normal;
 
 }
-@media only screen and (max-width: 500px) {
-  .zacsName h1 {
-     font-style: italic;
-    font-weight: normal;
-    font-size: 18px;
-    margin:5%;
-  }
-}
 
 /* HEAD */
 .HeadContainer{
-  max-width:1366px;
+ 
   height: 100vh;
 }
-@media only screen and (max-width: 500px) {
-  .HeadContainer{
-    width:500px;
-    height: 100vh;
-  }
-}
+
 
 .greeting{
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
 .greeting img{
   margin-left: 30%
+ 
 }
-@media only screen and (max-width: 500px) {
-  .greeting img{
-    width: 90% ;
-    margin: 3px;
-  }
-}
+
 .greeting h2{
   text-align: center;
   font-size: 45px;
@@ -100,22 +84,12 @@ img {
 font-weight: normal;
   
 }
-@media only screen and (max-width: 500px){
-  .greeting h2{
-    font-size: 18px;
-    line-height: 21px;
-  }
-}
 
 .underline{
     border-bottom: 8px solid #EE6454;
    
   }
-  @media only screen and (max-width: 500px){
-    .underline{ 
-      border-bottom: 3px solid #EE6454;
-    }
-  }
+  
   
 
  
@@ -125,12 +99,7 @@ font-weight: normal;
 .icons img{
   margin:2%;
 }
-@media only screen and (max-width: 500px){
-  .icons img{
-    width: 35px;
-    margin:4%;
-  }
-}
+
 
 .whereIWorked p{
   color: #D3BBAB;
@@ -146,57 +115,37 @@ font-weight: normal;
   justify-content: space-evenly;
   
 }
-@media only screen and (max-width: 500px){
-  .workLogos img{
-    width: 75px;
-  }
-}
+
 
 /* MAIN */
 
 .mainContainer{
-  max-width:1366px;
-  height: 110vh;
+  
+  height: 100%;
   background-color: #F0E5DC;
-
-}
-@media only screen and (max-width: 500px){
-  .mainContainer{
-    width: 500px;
-    height: 180vh;
-    
-
-  }
-}
-.AboutMeSection{
-  max-width: 1200px;
   display: flex;
+  justify-content: space-around;
+  
+  
+
+}
+
+.mainContainer img{
+  margin:3%;
+}
+
+.AboutMeSection{
+  width: 100%;
+  
   
 }
-
-.AboutMeSection img{
-  margin-left:75px;
+/* looks good 1011 */
+.AboutMeSection{
+  justify-content: space-around;
+  margin:2%;
+  
 }
-@media only screen and (max-width: 500px){
-  .AboutMeSection{
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media only screen and (max-width: 500px){
-  .AboutMeSection img{
-   width: 60%;
-   align-self: center;
-   margin-top: 72px;
-   margin-bottom: 62px;
-   margin-right: 65px;
-  }
-}
-.AboutParagraphs{
-  justify-content: space-between;
-  margin-left: 190px;
-}
-.AboutParagraphs h2{
+.paragraphs h2{
   font-style: normal;
   font-size: 45px;
   color: #676767;
@@ -204,22 +153,7 @@ font-weight: normal;
   font-weight: normal;
 
 }
-@media only screen and (max-width: 500px){
-  .AboutParagraphs{
-   margin:45px;
-  
-  
-  
-  }
-}
-@media all and (max-width: 500px)and (max-width: 350px){
-  .AboutParagraphs h2{
-  font-size: 40px;
-  
-  
-  
-  }
-}
+
 .paragraphs h3{
   color: #676767;
   font-size: 22px;
@@ -233,105 +167,25 @@ font-weight: normal;
   font-size: 20px;
   line-height: 32px;
 }
-@media only screen and (max-width: 500px){
-  .paragraphs p{
-  font-size: 18px;
-  
-  
-  }
-}
 
 /* CTA-BLOG */
 
 .BlogContainer{
-  max-width:1366px;
   height: 100vh;
   
 }
-@media only screen and (max-width: 500px){
-  .BlogContainer{
-    max-width:500px;
-    height: 110vh;
-    
-}
-}
+
   
 
-@media only screen and (max-width: 500px){
-  .ctaSection h4{
-    font-weight: bold;
-    font-size: 33px;
-    line-height: 32px;
-    color : white;
-    
-}
-}
+
  
 .ctaSection{
 
   margin-top:150px;
-  margin-left: 161px;
-}
-@media screen and (min-width: 780px){
-  .coffee{
-    display: none;
-  }
+  display:flex;
+  justify-content: flex-end;
 }
 
-@media screen and (min-width: 780px){
-  .mobile-cta{
-    display: none;
-  }
-}
-@media screen and (min-width: 780px){
-  .mobile-btn{
-    display: none;
-  }
-}
-
-
-@media only screen and (max-width: 500px){
-  .ctaSection .desktop-img{
-    display: none;
-    
-}
-}
-
-@media only screen and (max-width: 500px){
-  .ctaSection{
-   background-color:  #EE6454;
-   width: 500px;
-   height: 335px;
-   margin:0%;
-   text-align: center;
-    
-}
-}
-
-@media only screen and (max-width: 500px){
-  .coffee{
-   margin-top: 30px;
-    
-}
-}
-
-@media only screen and (max-width: 500px){
-  .mobile-btn{
-    background-color: #FAFAFA;
-    border-radius: 24px;
-    color: #EE6454;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 14px;
-    width: 280px;
-    height: 40px;
-    border: none;
-    text-transform: uppercase;
-    letter-spacing: 1.3px;
-    
-    
-}
-}
 
 
 
@@ -341,7 +195,7 @@ font-weight: normal;
   height: 444px;
   border-radius: 24px;
   margin-top: 119px;
-  margin-left: 108px;
+  margin-left: 100px;
   text-align: center;
 }
 
@@ -368,15 +222,7 @@ font-weight: normal;
   color:#3B3B3B;
   margin-top: 20px;
 }
-@media only screen and (max-width: 500px){
-  .quote h5{
-    font-size: 18px;
-    line-height: 32px;
-    margin:25px;
-    
 
-  }
-}
 .quote p{
   font-style: normal;
  font-weight: normal;
@@ -384,15 +230,7 @@ font-weight: normal;
  color:#4E4E50;
  margin-bottom: 65px;
 }
-@media only screen and (max-width: 500px){
-  .quote p{
-    font-size: 16px;
-    margin:20px;
-    
-    
 
-  }
-}
 
 .orange-dot{
   color: #EE6454;
@@ -404,19 +242,7 @@ font-weight: normal;
   justify-content: space-evenly;
   
 }
-@media only screen and (max-width:500px){
-  .BlogCards{
-    width: 500px;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: -75px;
-    
-    
-    
 
-  }
-}
 
 .card{
   width:450px ;
@@ -428,19 +254,7 @@ font-weight: normal;
   
   
 }
-@media only screen and (max-width: 500px){
-  .card{
-    
-  width:280px ;
-  height: 265px;
-  background-color:#FFE7E7;
-  border-radius: 24px 24px 0px 0px;
-  line-height: 27px;
-  margin-top: 220px;
-    
 
-  }
-}
 
 .card img{
   border-radius:0px 0px 24px 24px;
@@ -449,18 +263,7 @@ font-weight: normal;
 
 }
 
-@media only screen and (max-width: 500px){
-  .card img{
-    border-radius:0px 0px 24px 24px;
-    width: 280px;
-    height: 194px;
-    
-    
-    
-    
 
-  }
-}
 .card button{
   background-color: #FAFAFA;
   border-radius: 24px;
@@ -476,28 +279,14 @@ margin-left: 45px;
 
 }
 
-@media only screen and (max-width: 500px){
-  .card button{
-   
-  width: 182px;
- height: 48px;
-  border: none;
-margin-bottom: 25px;
-margin-left: 45px;
-    }
-}
+
 
 
 .textContainer{
   padding:8px;
   text-align:left;
 }
-@media only screen and (max-width: 500px){
-  .textContainer{
-    padding:4px;
-  text-align:left;
-    }
-}
+
 
 
 .textContainer h6{
@@ -510,11 +299,7 @@ margin-left: 45px;
 padding: 5px;
 }
 
-@media only screen and (max-width: 500px){
-  .textContainer h6{
-    font-size: 18px;
-    }
-}
+
 
 
 .textContainer p{
@@ -523,11 +308,6 @@ font-weight: normal;
 font-size: 16px;
 color:#535353;
 margin-left: 50px;
-}
-@media only screen and (max-width: 500px){
-  .textContainer p{
-    font-size: 16px;
-    }
 }
 
 .BlogCards2{
@@ -538,11 +318,7 @@ margin-left: 50px;
   
 }
 
-@media only screen and (max-width:500px){
-  .BlogCards2{
-    display: none;
-    }
-}
+
 
 
 .card2{
@@ -617,8 +393,3 @@ margin-left: 50px;
   color: #D3BBAB;
 }
 
-@media only screen and (max-width: 500px){
-  .bottom{
-    margin-top: 55%;
-    }
-}

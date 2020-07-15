@@ -1,7 +1,8 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import "../components/layout.css"
+import "../styles/layout.css"
+import "../styles/media.css"
 
 const Nav = () => (
   <>

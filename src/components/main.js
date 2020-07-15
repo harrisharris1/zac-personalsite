@@ -5,11 +5,11 @@ import ThinkingZac from "../images/thinkingzac.svg"
 
 const Main =() =>(
     <div className="mainContainer">
+         <img src={ThinkingZac}></img>
+       
         <div className="AboutMeSection">
-            <img src={ThinkingZac}></img>
-            <div className="AboutParagraphs">
+             <div className="paragraphs">
                 <h2>Things to know <span class="underline">about me.</span> </h2>
-                <div className="paragraphs">
                     <h3>Who am I?</h3>
                     <p>My name is Zac Harris, and I am a Father and Husband before anything. I
                     am 2x founder, Senior SEO and UI Designer based in Chicago. I founded
@@ -33,6 +33,6 @@ const Main =() =>(
             </div>
         </div>
 
-    </div>
+
 )
 export default Main

@@ -17,7 +17,7 @@ const Blog = ()=>(
                      <img src={Coffee} className="coffee"></img>
                         <h4 className="mobile-cta">Want to talk <br>
                             </br>marketing?</h4>
-                            <button className="mobile-btn">grab a zoom coffee with me</button>
+                            <a target='_blank' href="https://calendly.com/zac-harris/30-minute-private?month=2020-06"><button className="mobile-btn">grab a zoom coffee with me</button></a>
             </div> 
         </div>
 

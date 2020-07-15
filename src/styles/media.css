@@ -1,0 +1,260 @@
+/* PHONE-TABLET MEDIA QUERIES */
+/* ---------------------------------- */
+/* NAV/HEADER */
+
+@media only screen and (min-width:667px) and (max-width: 845px) {
+    .zacsName h1 {
+       font-style: italic;
+      font-weight: normal;
+      font-size: 25px;
+      margin:5%;
+    }
+  }
+
+  @media only screen and (min-width:667px) and (max-width: 845px) {
+    .greeting img{
+      width: 45% ;
+      margin-left: 25%;
+    }
+  }
+
+  @media only screen and (min-width:667px) and (max-width: 845px){
+    .greeting h2{
+      font-size: 25px;
+      line-height: 30px;
+    }
+  }
+
+  @media only screen and (min-width: 375px) and (max-width: 850px){
+    .workLogos img{
+        width: 150px;
+}  
+}
+
+
+/* MAIN */
+
+@media only screen and (min-width: 845px) and (max-width: 1010px){  
+    .paragraphs h2{
+   font-size: 35px;
+    
+}
+.paragraphs p{
+    font-size: 18px;
+}
+.paragraphs h3{
+    font-size: 22px;
+}
+.mainContainer img{
+    width: 35%;
+     
+ }
+
+}
+
+@media only screen and (min-width: 667px) and (max-width: 845px){
+      .paragraphs h2{
+   font-size: 30px;
+    
+}
+.paragraphs p{
+    font-size: 17px;
+   
+}
+.paragraphs h3{
+    font-size: 20px;
+}
+.mainContainer img{
+    width: 35%;
+     
+ }
+}
+
+
+
+
+
+/* CTA/BLOG */
+
+@media only screen and (min-width: 667px){  
+    .coffee{
+    display: none;
+  }
+}
+
+   
+@media only screen and (min-width: 667px) {
+     .mobile-cta{
+    display: none;
+  }
+  .mobile-btn{
+    display: none;
+  }
+}
+
+
+
+@media only screen and (min-width: 275px) and (max-width: 667px) { 
+     .ctaSection .desktop-img{
+    display: none;
+    
+}
+
+}
+
+/* @media only screen and (min-width: 1010px) and (max-width: 1250px){
+      .ctaSection .desktop-img{
+    margin-left: 10px;
+    
+}
+
+} */
+
+@media only screen and (min-width: 275px) and (max-width: 667px){
+     .ctaSection{
+    background-color:  #EE6454;
+    width: 500px;
+    height: 335px;
+    margin:0%;
+    text-align: center;
+     
+ }  
+}
+
+@media only screen and (min-width: 375px) and (max-width: 667px){
+      .coffee{
+    margin-top: 30px;
+     
+ }
+ }
+
+
+@media only screen and (min-width: 375px) and (max-width: 667px){
+       .mobile-btn{
+    background-color: #FAFAFA;
+    border-radius: 24px;
+    color: #EE6454;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    width: 280px;
+    height: 40px;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    
+    
+}
+}
+@media only screen and (min-width: 1010px) and (max-width: 1280px){  
+    .quote{
+        width: 850px;
+        height: 450px;
+        margin:10%;
+   
+}
+}
+
+@media only screen and (min-width: 845px) and (max-width: 1010px){  
+    .quote{
+        width: 750px;
+        height: 375px;
+        margin:6%;
+   
+}
+.quote h5{
+    font-size: 22px;
+}
+}
+
+
+@media only screen and (min-width: 790px) and (max-width: 845px){
+      .quote{
+   width: 650px;
+   height: 375px;
+   margin:5%;
+}
+.quote h5{
+    font-size: 22px;
+}
+}
+
+@media only screen and (min-width: 500px) and (max-width: 790px){
+    .quote{
+ width: 600px;
+ height: 395px;
+ margin:8%;
+}
+
+.quote h5{
+    font-size: 22px;
+    padding: 2%;
+}
+}
+
+@media only screen and (min-width: 666px) and (max-width: 975px){
+    .BlogCards {
+        width: 845px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: -255px;
+        
+        
+    }
+    .card {
+        width: 455px;
+        height: 265px;
+       margin-top: 355px;
+       
+        
+    
+    }
+    
+    .card img{
+        width: 515px;
+        height: 315px;
+    }
+    
+
+}
+
+
+
+
+
+@media only screen and (min-width: 666px) and (max-width: 1010px){
+    .BlogCards2{
+ display: none;
+
+}
+}
+
+@media only screen and (min-width: 666px) and (max-width: 975px){
+    .bottom{
+        margin-top: 45%;
+ 
+
+}
+}
+
+
+
+
+
+
+
+
+   
+  
+  
+  
+  
+   
+  
+
+  
+ 
+  
+ 
+   

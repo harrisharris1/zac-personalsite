@@ -1,5 +1,6 @@
 import React from "react"
-import "../components/layout.css"
+import "../styles/layout.css"
+import "../styles/media.css"
 import Main from "./main"
 import Blog from "./cta-blog"
 import Moji from "../images/zac-moji.png"
