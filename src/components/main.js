@@ -26,7 +26,7 @@ const Main =() =>(
                 <div className="paragraphs">
                     <h3>What am I passionate about?</h3>
                     <p>Football used to be a way of life for me. I still love the game, but I use it
-                    as a vechile to guide our inner-city youth. As a SEO enthusiast, I believe
+                    as a vehicle to guide our inner-city youth. As a SEO enthusiast, I believe
                     that removing the noise and lowering the barrier of entry into SEO will
                     empower more people to create sound SEO strategies.</p>
                 </div>
