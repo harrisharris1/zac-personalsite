@@ -31,7 +31,7 @@ module.exports = {
       resolve: `gatsby-source-ghost`,
       options: {
         apiUrl: `http://localhost:2368`,
-        contentApiKey: `17aa5efe4c9c51d5024e06761f`
+        contentApiKey: `a50989a8fbf3b79eeeb8bb2eeb`
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
