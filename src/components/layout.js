@@ -8,12 +8,12 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import "../styles/media.css"
 
 import Nav from "./nav"
 import Head from "./head"
 
 import "../styles/layout.css"
-import "../styles/media.css"
 
 const Layout = () => {
  
