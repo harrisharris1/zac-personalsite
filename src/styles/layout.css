@@ -82,11 +82,14 @@ img {
   line-height: 68px;
   font-style: normal;
 font-weight: normal;
+padding:2px;
   
 }
 
-.underline{
-    border-bottom: 8px solid #EE6454;
+.background-highlight{
+    background-color:#EE6454;
+    padding:3px;
+    color:#4b4a4a
    
   }
   

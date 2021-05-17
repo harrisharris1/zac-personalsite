@@ -18,7 +18,7 @@ const Head = () => (
   <div className="HeadContainer">
         <div className="greeting">
             <img src={Moji} width="40%"></img>
-            <h2>I'm Zac, a <span className="underline">SaaS marketer</span>, Designer, and <br>
+            <h2>I'm Zac, a <span className="background-highlight">SaaS marketer</span>, Designer, and <br>
             </br>two-time founder. I'm the Chief Revenue<br>
             </br>Officer at Northcutt by day, and design my <br>
             </br>my own projects by night.</h2>
